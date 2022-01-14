@@ -1,6 +1,9 @@
 <?php
 
 // phpcs:ignoreFile
+error_reporting(E_ALL);
+ini_set('display_errors','On');
+ini_set('memory_limit', '256M');
 
 /**
  * @file
