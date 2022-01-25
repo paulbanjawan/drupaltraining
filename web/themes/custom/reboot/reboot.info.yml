@@ -20,3 +20,7 @@ regions:
   sidebar_second: 'Right sidebar'
   footer_first: 'Footer first'
   footer_second: 'Footer second'
+
+libraries:
+  - reboot/bootstrap
+  - reboot/global
