@@ -82,6 +82,10 @@
   ]
 %}
 {{ attach_library('classy/node') }}
+{% if not node.isPublished() %}
+  <div clas="alert alert-warning">{{"This node is not published"|t }}</div>
+{% endif %}
+
 <article{{ attributes.addClass(classes) }}>
 
   {{ title_prefix }}
